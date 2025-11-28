@@ -1,1 +1,84 @@
-.venv
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Jupyter lab working dirs
+.lab/
+.jupyter/
+
+# Jupyter runtime / security
+.jupyter/
+.runtime/
+
+# --- IDEs ---
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Data files (opcional, mas recomendado para ML) ---
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+*.db
+*.h5
+*.hdf5
+*.model
+*.pkl
+*.joblib
+
+# --- Notebook outputs (caso queira ignorar checkpoints grandes) ---
+**/.ipynb_checkpoints/*
+
+# --- Python cache stuff ---
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# --- Docker ---
+docker-compose.override.yml
+
