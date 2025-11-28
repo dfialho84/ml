@@ -59,6 +59,7 @@ Thumbs.db
 # --- Data files (opcional, mas recomendado para ML) ---
 data/
 datasets/
+models/
 *.csv
 *.tsv
 *.parquet
